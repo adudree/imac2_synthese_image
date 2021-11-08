@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template"
+CMAKE_SOURCE_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template"
+CMAKE_BINARY_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/CMakeFiles" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP2/CMakeFiles/progress.marks"
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/CMakeFiles" 0
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template/CMakeFiles /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP2/CMakeFiles/progress.marks
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/clean
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_vertex2DUV.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_vertex2DUV.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_vertex2DUV.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_vertex2DUV.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ TP2_vertex2DUV: TP2/CMakeFiles/TP2_vertex2DUV.dir/rule
 
 # fast build rule for target.
 TP2_vertex2DUV/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/build
 .PHONY : TP2_vertex2DUV/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ TP2_triangle_couleurs: TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule
 
 # fast build rule for target.
 TP2_triangle_couleurs/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/build
 .PHONY : TP2_triangle_couleurs/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_triangle.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_triangle.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ TP2_triangle: TP2/CMakeFiles/TP2_triangle.dir/rule
 
 # fast build rule for target.
 TP2_triangle/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/build
 .PHONY : TP2_triangle/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_mandelbrot.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_mandelbrot.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ TP2_mandelbrot: TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 
 # fast build rule for target.
 TP2_mandelbrot/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/build
 .PHONY : TP2_mandelbrot/fast
 
 # Convenience name for target.
 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -182,7 +182,7 @@ TP2_SDLtemplate: TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP2_SDLtemplate/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
 .PHONY : TP2_SDLtemplate/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -191,7 +191,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -200,7 +200,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -209,7 +209,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 mandelbrot.o: mandelbrot.cpp.o
@@ -218,7 +218,7 @@ mandelbrot.o: mandelbrot.cpp.o
 
 # target to build an object file
 mandelbrot.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.o
 .PHONY : mandelbrot.cpp.o
 
 mandelbrot.i: mandelbrot.cpp.i
@@ -227,7 +227,7 @@ mandelbrot.i: mandelbrot.cpp.i
 
 # target to preprocess a source file
 mandelbrot.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.i
 .PHONY : mandelbrot.cpp.i
 
 mandelbrot.s: mandelbrot.cpp.s
@@ -236,7 +236,7 @@ mandelbrot.s: mandelbrot.cpp.s
 
 # target to generate assembly for a file
 mandelbrot.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/mandelbrot.cpp.s
 .PHONY : mandelbrot.cpp.s
 
 triangle.o: triangle.cpp.o
@@ -245,7 +245,7 @@ triangle.o: triangle.cpp.o
 
 # target to build an object file
 triangle.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/triangle.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/triangle.cpp.o
 .PHONY : triangle.cpp.o
 
 triangle.i: triangle.cpp.i
@@ -254,7 +254,7 @@ triangle.i: triangle.cpp.i
 
 # target to preprocess a source file
 triangle.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/triangle.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/triangle.cpp.i
 .PHONY : triangle.cpp.i
 
 triangle.s: triangle.cpp.s
@@ -263,7 +263,7 @@ triangle.s: triangle.cpp.s
 
 # target to generate assembly for a file
 triangle.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/triangle.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/triangle.cpp.s
 .PHONY : triangle.cpp.s
 
 triangle_couleurs.o: triangle_couleurs.cpp.o
@@ -272,7 +272,7 @@ triangle_couleurs.o: triangle_couleurs.cpp.o
 
 # target to build an object file
 triangle_couleurs.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/triangle_couleurs.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/triangle_couleurs.cpp.o
 .PHONY : triangle_couleurs.cpp.o
 
 triangle_couleurs.i: triangle_couleurs.cpp.i
@@ -281,7 +281,7 @@ triangle_couleurs.i: triangle_couleurs.cpp.i
 
 # target to preprocess a source file
 triangle_couleurs.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/triangle_couleurs.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/triangle_couleurs.cpp.i
 .PHONY : triangle_couleurs.cpp.i
 
 triangle_couleurs.s: triangle_couleurs.cpp.s
@@ -290,7 +290,7 @@ triangle_couleurs.s: triangle_couleurs.cpp.s
 
 # target to generate assembly for a file
 triangle_couleurs.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/triangle_couleurs.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/triangle_couleurs.cpp.s
 .PHONY : triangle_couleurs.cpp.s
 
 vertex2DUV.o: vertex2DUV.cpp.o
@@ -299,7 +299,7 @@ vertex2DUV.o: vertex2DUV.cpp.o
 
 # target to build an object file
 vertex2DUV.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/vertex2DUV.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/vertex2DUV.cpp.o
 .PHONY : vertex2DUV.cpp.o
 
 vertex2DUV.i: vertex2DUV.cpp.i
@@ -308,7 +308,7 @@ vertex2DUV.i: vertex2DUV.cpp.i
 
 # target to preprocess a source file
 vertex2DUV.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/vertex2DUV.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/vertex2DUV.cpp.i
 .PHONY : vertex2DUV.cpp.i
 
 vertex2DUV.s: vertex2DUV.cpp.s
@@ -317,7 +317,7 @@ vertex2DUV.s: vertex2DUV.cpp.s
 
 # target to generate assembly for a file
 vertex2DUV.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/vertex2DUV.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/vertex2DUV.cpp.s
 .PHONY : vertex2DUV.cpp.s
 
 # Help Target
@@ -359,6 +359,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

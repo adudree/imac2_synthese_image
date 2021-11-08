@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/usr/include/SDL -I"/home/adudree/Documents/IMAC 2/SI/GLImac-Template/glimac/include" -I"/home/adudree/Documents/IMAC 2/SI/GLImac-Template/third-party/include" 
+CXX_INCLUDES = -I/usr/include/SDL -I/home/adudree/Documents/IMAC2/SI/GLImac-Template/glimac/include -I/home/adudree/Documents/IMAC2/SI/GLImac-Template/third-party/include 
 

@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template"
+CMAKE_SOURCE_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build"
+CMAKE_BINARY_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template-build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -56,6 +56,8 @@ CMAKE_BINARY_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build"
 all: glimac/all
 all: TP1/all
 all: TP2/all
+all: TP_planets/all
+all: TP_planets2/all
 all: TP_template/all
 
 .PHONY : all
@@ -64,6 +66,8 @@ all: TP_template/all
 preinstall: glimac/preinstall
 preinstall: TP1/preinstall
 preinstall: TP2/preinstall
+preinstall: TP_planets/preinstall
+preinstall: TP_planets2/preinstall
 preinstall: TP_template/preinstall
 
 .PHONY : preinstall
@@ -72,6 +76,8 @@ preinstall: TP_template/preinstall
 clean: glimac/clean
 clean: TP1/clean
 clean: TP2/clean
+clean: TP_planets/clean
+clean: TP_planets2/clean
 clean: TP_template/clean
 
 .PHONY : clean
@@ -110,6 +116,7 @@ TP1/clean: TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
 # Directory level rules for directory TP2
 
 # Recursive "all" directory target.
+TP2/all: TP2/CMakeFiles/TP2_vertex2DUV.dir/all
 TP2/all: TP2/CMakeFiles/TP2_triangle_couleurs.dir/all
 TP2/all: TP2/CMakeFiles/TP2_triangle.dir/all
 TP2/all: TP2/CMakeFiles/TP2_mandelbrot.dir/all
@@ -123,12 +130,53 @@ TP2/preinstall:
 .PHONY : TP2/preinstall
 
 # Recursive "clean" directory target.
+TP2/clean: TP2/CMakeFiles/TP2_vertex2DUV.dir/clean
 TP2/clean: TP2/CMakeFiles/TP2_triangle_couleurs.dir/clean
 TP2/clean: TP2/CMakeFiles/TP2_triangle.dir/clean
 TP2/clean: TP2/CMakeFiles/TP2_mandelbrot.dir/clean
 TP2/clean: TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
 
 .PHONY : TP2/clean
+
+#=============================================================================
+# Directory level rules for directory TP_planets
+
+# Recursive "all" directory target.
+TP_planets/all: TP_planets/CMakeFiles/TP_planets_planets.dir/all
+TP_planets/all: TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/all
+
+.PHONY : TP_planets/all
+
+# Recursive "preinstall" directory target.
+TP_planets/preinstall:
+
+.PHONY : TP_planets/preinstall
+
+# Recursive "clean" directory target.
+TP_planets/clean: TP_planets/CMakeFiles/TP_planets_planets.dir/clean
+TP_planets/clean: TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/clean
+
+.PHONY : TP_planets/clean
+
+#=============================================================================
+# Directory level rules for directory TP_planets2
+
+# Recursive "all" directory target.
+TP_planets2/all: TP_planets2/CMakeFiles/TP_planets2_planets.dir/all
+TP_planets2/all: TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/all
+
+.PHONY : TP_planets2/all
+
+# Recursive "preinstall" directory target.
+TP_planets2/preinstall:
+
+.PHONY : TP_planets2/preinstall
+
+# Recursive "clean" directory target.
+TP_planets2/clean: TP_planets2/CMakeFiles/TP_planets2_planets.dir/clean
+TP_planets2/clean: TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/clean
+
+.PHONY : TP_planets2/clean
 
 #=============================================================================
 # Directory level rules for directory TP_template
@@ -173,14 +221,14 @@ glimac/clean: glimac/CMakeFiles/glimac.dir/clean
 glimac/CMakeFiles/glimac.dir/all:
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/depend
 	$(MAKE) -f glimac/CMakeFiles/glimac.dir/build.make glimac/CMakeFiles/glimac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=25,26,27,28,29,30,31,32,33 "Built target glimac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=35,36,37,38,39,40,41,42,43 "Built target glimac"
 .PHONY : glimac/CMakeFiles/glimac.dir/all
 
 # Build rule for subdir invocation for target.
 glimac/CMakeFiles/glimac.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 9
 	$(MAKE) -f CMakeFiles/Makefile2 glimac/CMakeFiles/glimac.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : glimac/CMakeFiles/glimac.dir/rule
 
 # Convenience name for target.
@@ -200,14 +248,14 @@ glimac/CMakeFiles/glimac.dir/clean:
 TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=13,14 "Built target TP1_exo6_disk_ibo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=13,14 "Built target TP1_exo6_disk_ibo"
 .PHONY : TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule
 
 # Convenience name for target.
@@ -227,14 +275,14 @@ TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/clean:
 TP1/CMakeFiles/TP1_exo5_disk.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=11,12 "Built target TP1_exo5_disk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=11,12 "Built target TP1_exo5_disk"
 .PHONY : TP1/CMakeFiles/TP1_exo5_disk.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo5_disk.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_disk.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo5_disk.dir/rule
 
 # Convenience name for target.
@@ -254,14 +302,14 @@ TP1/CMakeFiles/TP1_exo5_disk.dir/clean:
 TP1/CMakeFiles/TP1_exo4_quad.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=9,10 "Built target TP1_exo4_quad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=9,10 "Built target TP1_exo4_quad"
 .PHONY : TP1/CMakeFiles/TP1_exo4_quad.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo4_quad.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo4_quad.dir/rule
 
 # Convenience name for target.
@@ -281,14 +329,14 @@ TP1/CMakeFiles/TP1_exo4_quad.dir/clean:
 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=7,8 "Built target TP1_exo3_structure_vertex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=7,8 "Built target TP1_exo3_structure_vertex"
 .PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
 
 # Convenience name for target.
@@ -308,14 +356,14 @@ TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/clean:
 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=5,6 "Built target TP1_exo2_triangle_couleurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=5,6 "Built target TP1_exo2_triangle_couleurs"
 .PHONY : TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule
 
 # Convenience name for target.
@@ -335,14 +383,14 @@ TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/clean:
 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=3,4 "Built target TP1_exo1_triangle_blanc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=3,4 "Built target TP1_exo1_triangle_blanc"
 .PHONY : TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
 
 # Convenience name for target.
@@ -362,14 +410,14 @@ TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/clean:
 TP1/CMakeFiles/TP1_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/depend
 	$(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=1,2 "Built target TP1_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=1,2 "Built target TP1_SDLtemplate"
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -383,20 +431,47 @@ TP1/CMakeFiles/TP1_SDLtemplate.dir/clean:
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/clean
 
 #=============================================================================
+# Target rules for target TP2/CMakeFiles/TP2_vertex2DUV.dir
+
+# All Build rule for target.
+TP2/CMakeFiles/TP2_vertex2DUV.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/depend
+	$(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=23,24 "Built target TP2_vertex2DUV"
+.PHONY : TP2/CMakeFiles/TP2_vertex2DUV.dir/all
+
+# Build rule for subdir invocation for target.
+TP2/CMakeFiles/TP2_vertex2DUV.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_vertex2DUV.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP2/CMakeFiles/TP2_vertex2DUV.dir/rule
+
+# Convenience name for target.
+TP2_vertex2DUV: TP2/CMakeFiles/TP2_vertex2DUV.dir/rule
+
+.PHONY : TP2_vertex2DUV
+
+# clean rule for target.
+TP2/CMakeFiles/TP2_vertex2DUV.dir/clean:
+	$(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/clean
+.PHONY : TP2/CMakeFiles/TP2_vertex2DUV.dir/clean
+
+#=============================================================================
 # Target rules for target TP2/CMakeFiles/TP2_triangle_couleurs.dir
 
 # All Build rule for target.
 TP2/CMakeFiles/TP2_triangle_couleurs.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/depend
 	$(MAKE) -f TP2/CMakeFiles/TP2_triangle_couleurs.dir/build.make TP2/CMakeFiles/TP2_triangle_couleurs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=21,22 "Built target TP2_triangle_couleurs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=21,22 "Built target TP2_triangle_couleurs"
 .PHONY : TP2/CMakeFiles/TP2_triangle_couleurs.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle_couleurs.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_triangle_couleurs.dir/rule
 
 # Convenience name for target.
@@ -416,14 +491,14 @@ TP2/CMakeFiles/TP2_triangle_couleurs.dir/clean:
 TP2/CMakeFiles/TP2_triangle.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/depend
 	$(MAKE) -f TP2/CMakeFiles/TP2_triangle.dir/build.make TP2/CMakeFiles/TP2_triangle.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=19,20 "Built target TP2_triangle"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=19,20 "Built target TP2_triangle"
 .PHONY : TP2/CMakeFiles/TP2_triangle.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_triangle.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_triangle.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_triangle.dir/rule
 
 # Convenience name for target.
@@ -443,14 +518,14 @@ TP2/CMakeFiles/TP2_triangle.dir/clean:
 TP2/CMakeFiles/TP2_mandelbrot.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/depend
 	$(MAKE) -f TP2/CMakeFiles/TP2_mandelbrot.dir/build.make TP2/CMakeFiles/TP2_mandelbrot.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=17,18 "Built target TP2_mandelbrot"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=17,18 "Built target TP2_mandelbrot"
 .PHONY : TP2/CMakeFiles/TP2_mandelbrot.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_mandelbrot.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_mandelbrot.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_mandelbrot.dir/rule
 
 # Convenience name for target.
@@ -470,14 +545,14 @@ TP2/CMakeFiles/TP2_mandelbrot.dir/clean:
 TP2/CMakeFiles/TP2_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/depend
 	$(MAKE) -f TP2/CMakeFiles/TP2_SDLtemplate.dir/build.make TP2/CMakeFiles/TP2_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=15,16 "Built target TP2_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=15,16 "Built target TP2_SDLtemplate"
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP2/CMakeFiles/TP2_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP2/CMakeFiles/TP2_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -491,20 +566,128 @@ TP2/CMakeFiles/TP2_SDLtemplate.dir/clean:
 .PHONY : TP2/CMakeFiles/TP2_SDLtemplate.dir/clean
 
 #=============================================================================
+# Target rules for target TP_planets/CMakeFiles/TP_planets_planets.dir
+
+# All Build rule for target.
+TP_planets/CMakeFiles/TP_planets_planets.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_planets.dir/build.make TP_planets/CMakeFiles/TP_planets_planets.dir/depend
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_planets.dir/build.make TP_planets/CMakeFiles/TP_planets_planets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=31,32 "Built target TP_planets_planets"
+.PHONY : TP_planets/CMakeFiles/TP_planets_planets.dir/all
+
+# Build rule for subdir invocation for target.
+TP_planets/CMakeFiles/TP_planets_planets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets/CMakeFiles/TP_planets_planets.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP_planets/CMakeFiles/TP_planets_planets.dir/rule
+
+# Convenience name for target.
+TP_planets_planets: TP_planets/CMakeFiles/TP_planets_planets.dir/rule
+
+.PHONY : TP_planets_planets
+
+# clean rule for target.
+TP_planets/CMakeFiles/TP_planets_planets.dir/clean:
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_planets.dir/build.make TP_planets/CMakeFiles/TP_planets_planets.dir/clean
+.PHONY : TP_planets/CMakeFiles/TP_planets_planets.dir/clean
+
+#=============================================================================
+# Target rules for target TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir
+
+# All Build rule for target.
+TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/build.make TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/depend
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/build.make TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=29,30 "Built target TP_planets_SDLtemplate"
+.PHONY : TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/all
+
+# Build rule for subdir invocation for target.
+TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/rule
+
+# Convenience name for target.
+TP_planets_SDLtemplate: TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/rule
+
+.PHONY : TP_planets_SDLtemplate
+
+# clean rule for target.
+TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/clean:
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/build.make TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/clean
+.PHONY : TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/clean
+
+#=============================================================================
+# Target rules for target TP_planets2/CMakeFiles/TP_planets2_planets.dir
+
+# All Build rule for target.
+TP_planets2/CMakeFiles/TP_planets2_planets.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_planets.dir/build.make TP_planets2/CMakeFiles/TP_planets2_planets.dir/depend
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_planets.dir/build.make TP_planets2/CMakeFiles/TP_planets2_planets.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=27,28 "Built target TP_planets2_planets"
+.PHONY : TP_planets2/CMakeFiles/TP_planets2_planets.dir/all
+
+# Build rule for subdir invocation for target.
+TP_planets2/CMakeFiles/TP_planets2_planets.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets2/CMakeFiles/TP_planets2_planets.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP_planets2/CMakeFiles/TP_planets2_planets.dir/rule
+
+# Convenience name for target.
+TP_planets2_planets: TP_planets2/CMakeFiles/TP_planets2_planets.dir/rule
+
+.PHONY : TP_planets2_planets
+
+# clean rule for target.
+TP_planets2/CMakeFiles/TP_planets2_planets.dir/clean:
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_planets.dir/build.make TP_planets2/CMakeFiles/TP_planets2_planets.dir/clean
+.PHONY : TP_planets2/CMakeFiles/TP_planets2_planets.dir/clean
+
+#=============================================================================
+# Target rules for target TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir
+
+# All Build rule for target.
+TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/build.make TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/depend
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/build.make TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=25,26 "Built target TP_planets2_SDLtemplate"
+.PHONY : TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/all
+
+# Build rule for subdir invocation for target.
+TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
+.PHONY : TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/rule
+
+# Convenience name for target.
+TP_planets2_SDLtemplate: TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/rule
+
+.PHONY : TP_planets2_SDLtemplate
+
+# clean rule for target.
+TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/clean:
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/build.make TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/clean
+.PHONY : TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/clean
+
+#=============================================================================
 # Target rules for target TP_template/CMakeFiles/TP_template_SDLtemplate.dir
 
 # All Build rule for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all: glimac/CMakeFiles/glimac.dir/all
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 	$(MAKE) -f TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build.make TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=23,24 "Built target TP_template_SDLtemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=33,34 "Built target TP_template_SDLtemplate"
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
 
 # Build rule for subdir invocation for target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 11
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 11
 	$(MAKE) -f CMakeFiles/Makefile2 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/rule
 
 # Convenience name for target.

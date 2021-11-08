@@ -4,20 +4,20 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP1/exo4_quad.cpp" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.o"
+  "/home/adudree/Documents/IMAC2/SI/GLImac-Template/TP1/exo4_quad.cpp" "/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/usr/include/SDL"
-  "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/glimac/include"
-  "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/third-party/include"
+  "/home/adudree/Documents/IMAC2/SI/GLImac-Template/glimac/include"
+  "/home/adudree/Documents/IMAC2/SI/GLImac-Template/third-party/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
+  "/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/glimac/CMakeFiles/glimac.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

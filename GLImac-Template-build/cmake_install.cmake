@@ -1,4 +1,4 @@
-# Install script for directory: /home/adudree/Documents/IMAC 2/SI/GLImac-Template
+# Install script for directory: /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/glimac/cmake_install.cmake")
-  include("/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP1/cmake_install.cmake")
-  include("/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP2/cmake_install.cmake")
-  include("/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template/cmake_install.cmake")
+  include("/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/glimac/cmake_install.cmake")
+  include("/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP1/cmake_install.cmake")
+  include("/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP2/cmake_install.cmake")
+  include("/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_planets/cmake_install.cmake")
+  include("/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_planets2/cmake_install.cmake")
+  include("/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +56,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

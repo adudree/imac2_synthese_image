@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template"
+CMAKE_SOURCE_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build"
+CMAKE_BINARY_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP1/CMakeFiles/progress.marks"
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP1/CMakeFiles/progress.marks
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/clean
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ TP1_exo6_disk_ibo: TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/rule
 
 # fast build rule for target.
 TP1_exo6_disk_ibo/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build
 .PHONY : TP1_exo6_disk_ibo/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo5_disk.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_disk.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo5_disk.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exo5_disk.dir/rule
 
 # Convenience name for target.
@@ -137,12 +137,12 @@ TP1_exo5_disk: TP1/CMakeFiles/TP1_exo5_disk.dir/rule
 
 # fast build rule for target.
 TP1_exo5_disk/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/build
 .PHONY : TP1_exo5_disk/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo4_quad.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo4_quad.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exo4_quad.dir/rule
 
 # Convenience name for target.
@@ -152,12 +152,12 @@ TP1_exo4_quad: TP1/CMakeFiles/TP1_exo4_quad.dir/rule
 
 # fast build rule for target.
 TP1_exo4_quad/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/build
 .PHONY : TP1_exo4_quad/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
 
 # Convenience name for target.
@@ -167,12 +167,12 @@ TP1_exo3_structure_vertex: TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/rule
 
 # fast build rule for target.
 TP1_exo3_structure_vertex/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build
 .PHONY : TP1_exo3_structure_vertex/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule
 
 # Convenience name for target.
@@ -182,12 +182,12 @@ TP1_exo2_triangle_couleurs: TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/rule
 
 # fast build rule for target.
 TP1_exo2_triangle_couleurs/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build
 .PHONY : TP1_exo2_triangle_couleurs/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
 
 # Convenience name for target.
@@ -197,12 +197,12 @@ TP1_exo1_triangle_blanc: TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/rule
 
 # fast build rule for target.
 TP1_exo1_triangle_blanc/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build
 .PHONY : TP1_exo1_triangle_blanc/fast
 
 # Convenience name for target.
 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f CMakeFiles/Makefile2 TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 .PHONY : TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 
 # Convenience name for target.
@@ -212,7 +212,7 @@ TP1_SDLtemplate: TP1/CMakeFiles/TP1_SDLtemplate.dir/rule
 
 # fast build rule for target.
 TP1_SDLtemplate/fast:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/build
 .PHONY : TP1_SDLtemplate/fast
 
 SDLtemplate.o: SDLtemplate.cpp.o
@@ -221,7 +221,7 @@ SDLtemplate.o: SDLtemplate.cpp.o
 
 # target to build an object file
 SDLtemplate.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.o
 .PHONY : SDLtemplate.cpp.o
 
 SDLtemplate.i: SDLtemplate.cpp.i
@@ -230,7 +230,7 @@ SDLtemplate.i: SDLtemplate.cpp.i
 
 # target to preprocess a source file
 SDLtemplate.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.i
 .PHONY : SDLtemplate.cpp.i
 
 SDLtemplate.s: SDLtemplate.cpp.s
@@ -239,7 +239,7 @@ SDLtemplate.s: SDLtemplate.cpp.s
 
 # target to generate assembly for a file
 SDLtemplate.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_SDLtemplate.dir/build.make TP1/CMakeFiles/TP1_SDLtemplate.dir/SDLtemplate.cpp.s
 .PHONY : SDLtemplate.cpp.s
 
 exo1_triangle_blanc.o: exo1_triangle_blanc.cpp.o
@@ -248,7 +248,7 @@ exo1_triangle_blanc.o: exo1_triangle_blanc.cpp.o
 
 # target to build an object file
 exo1_triangle_blanc.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.o
 .PHONY : exo1_triangle_blanc.cpp.o
 
 exo1_triangle_blanc.i: exo1_triangle_blanc.cpp.i
@@ -257,7 +257,7 @@ exo1_triangle_blanc.i: exo1_triangle_blanc.cpp.i
 
 # target to preprocess a source file
 exo1_triangle_blanc.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.i
 .PHONY : exo1_triangle_blanc.cpp.i
 
 exo1_triangle_blanc.s: exo1_triangle_blanc.cpp.s
@@ -266,7 +266,7 @@ exo1_triangle_blanc.s: exo1_triangle_blanc.cpp.s
 
 # target to generate assembly for a file
 exo1_triangle_blanc.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/build.make TP1/CMakeFiles/TP1_exo1_triangle_blanc.dir/exo1_triangle_blanc.cpp.s
 .PHONY : exo1_triangle_blanc.cpp.s
 
 exo2_triangle_couleurs.o: exo2_triangle_couleurs.cpp.o
@@ -275,7 +275,7 @@ exo2_triangle_couleurs.o: exo2_triangle_couleurs.cpp.o
 
 # target to build an object file
 exo2_triangle_couleurs.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.o
 .PHONY : exo2_triangle_couleurs.cpp.o
 
 exo2_triangle_couleurs.i: exo2_triangle_couleurs.cpp.i
@@ -284,7 +284,7 @@ exo2_triangle_couleurs.i: exo2_triangle_couleurs.cpp.i
 
 # target to preprocess a source file
 exo2_triangle_couleurs.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.i
 .PHONY : exo2_triangle_couleurs.cpp.i
 
 exo2_triangle_couleurs.s: exo2_triangle_couleurs.cpp.s
@@ -293,7 +293,7 @@ exo2_triangle_couleurs.s: exo2_triangle_couleurs.cpp.s
 
 # target to generate assembly for a file
 exo2_triangle_couleurs.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/build.make TP1/CMakeFiles/TP1_exo2_triangle_couleurs.dir/exo2_triangle_couleurs.cpp.s
 .PHONY : exo2_triangle_couleurs.cpp.s
 
 exo3_structure_vertex.o: exo3_structure_vertex.cpp.o
@@ -302,7 +302,7 @@ exo3_structure_vertex.o: exo3_structure_vertex.cpp.o
 
 # target to build an object file
 exo3_structure_vertex.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.o
 .PHONY : exo3_structure_vertex.cpp.o
 
 exo3_structure_vertex.i: exo3_structure_vertex.cpp.i
@@ -311,7 +311,7 @@ exo3_structure_vertex.i: exo3_structure_vertex.cpp.i
 
 # target to preprocess a source file
 exo3_structure_vertex.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.i
 .PHONY : exo3_structure_vertex.cpp.i
 
 exo3_structure_vertex.s: exo3_structure_vertex.cpp.s
@@ -320,7 +320,7 @@ exo3_structure_vertex.s: exo3_structure_vertex.cpp.s
 
 # target to generate assembly for a file
 exo3_structure_vertex.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/build.make TP1/CMakeFiles/TP1_exo3_structure_vertex.dir/exo3_structure_vertex.cpp.s
 .PHONY : exo3_structure_vertex.cpp.s
 
 exo4_quad.o: exo4_quad.cpp.o
@@ -329,7 +329,7 @@ exo4_quad.o: exo4_quad.cpp.o
 
 # target to build an object file
 exo4_quad.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.o
 .PHONY : exo4_quad.cpp.o
 
 exo4_quad.i: exo4_quad.cpp.i
@@ -338,7 +338,7 @@ exo4_quad.i: exo4_quad.cpp.i
 
 # target to preprocess a source file
 exo4_quad.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.i
 .PHONY : exo4_quad.cpp.i
 
 exo4_quad.s: exo4_quad.cpp.s
@@ -347,7 +347,7 @@ exo4_quad.s: exo4_quad.cpp.s
 
 # target to generate assembly for a file
 exo4_quad.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo4_quad.dir/build.make TP1/CMakeFiles/TP1_exo4_quad.dir/exo4_quad.cpp.s
 .PHONY : exo4_quad.cpp.s
 
 exo5_disk.o: exo5_disk.cpp.o
@@ -356,7 +356,7 @@ exo5_disk.o: exo5_disk.cpp.o
 
 # target to build an object file
 exo5_disk.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/exo5_disk.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/exo5_disk.cpp.o
 .PHONY : exo5_disk.cpp.o
 
 exo5_disk.i: exo5_disk.cpp.i
@@ -365,7 +365,7 @@ exo5_disk.i: exo5_disk.cpp.i
 
 # target to preprocess a source file
 exo5_disk.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/exo5_disk.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/exo5_disk.cpp.i
 .PHONY : exo5_disk.cpp.i
 
 exo5_disk.s: exo5_disk.cpp.s
@@ -374,7 +374,7 @@ exo5_disk.s: exo5_disk.cpp.s
 
 # target to generate assembly for a file
 exo5_disk.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/exo5_disk.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo5_disk.dir/build.make TP1/CMakeFiles/TP1_exo5_disk.dir/exo5_disk.cpp.s
 .PHONY : exo5_disk.cpp.s
 
 exo6_disk_ibo.o: exo6_disk_ibo.cpp.o
@@ -383,7 +383,7 @@ exo6_disk_ibo.o: exo6_disk_ibo.cpp.o
 
 # target to build an object file
 exo6_disk_ibo.cpp.o:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/exo6_disk_ibo.cpp.o
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/exo6_disk_ibo.cpp.o
 .PHONY : exo6_disk_ibo.cpp.o
 
 exo6_disk_ibo.i: exo6_disk_ibo.cpp.i
@@ -392,7 +392,7 @@ exo6_disk_ibo.i: exo6_disk_ibo.cpp.i
 
 # target to preprocess a source file
 exo6_disk_ibo.cpp.i:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/exo6_disk_ibo.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/exo6_disk_ibo.cpp.i
 .PHONY : exo6_disk_ibo.cpp.i
 
 exo6_disk_ibo.s: exo6_disk_ibo.cpp.s
@@ -401,7 +401,7 @@ exo6_disk_ibo.s: exo6_disk_ibo.cpp.s
 
 # target to generate assembly for a file
 exo6_disk_ibo.cpp.s:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/exo6_disk_ibo.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(MAKE) -f TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/build.make TP1/CMakeFiles/TP1_exo6_disk_ibo.dir/exo6_disk_ibo.cpp.s
 .PHONY : exo6_disk_ibo.cpp.s
 
 # Help Target
@@ -451,6 +451,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

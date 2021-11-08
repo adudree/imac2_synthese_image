@@ -55,7 +55,7 @@ int main(int argc, char** argv) {
         return EXIT_FAILURE;
     }
 
-    std::unique_ptr<Image> img = loadImage("./TP2/assets/textures/triforce.png");
+    std::unique_ptr<Image> img = loadImage("../GLImac-Template/assets/textures/EarthMap.jpg");
     if (img)
         std::cout << "texture chargée." << std::endl;
 

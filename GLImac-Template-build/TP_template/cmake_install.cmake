@@ -1,4 +1,4 @@
-# Install script for directory: /home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP_template
+# Install script for directory: /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP_template
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

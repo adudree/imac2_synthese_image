@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template"
+CMAKE_SOURCE_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build"
+CMAKE_BINARY_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template-build
 
 # Include any dependencies generated for this target.
 include TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend.make
@@ -58,17 +58,17 @@ include TP_template/CMakeFiles/TP_template_SDLtemplate.dir/progress.make
 include TP_template/CMakeFiles/TP_template_SDLtemplate.dir/flags.make
 
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/flags.make
-TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o: /home/adudree/Documents/IMAC\ 2/SI/GLImac-Template/TP_template/SDLtemplate.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o"
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template" && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o -c "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP_template/SDLtemplate.cpp"
+TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o: /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP_template/SDLtemplate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o"
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.o -c /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP_template/SDLtemplate.cpp
 
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.i"
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP_template/SDLtemplate.cpp" > CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.i
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP_template/SDLtemplate.cpp > CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.i
 
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.s"
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template" && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP_template/SDLtemplate.cpp" -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.s
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP_template/SDLtemplate.cpp -o CMakeFiles/TP_template_SDLtemplate.dir/SDLtemplate.cpp.s
 
 # Object files for target TP_template_SDLtemplate
 TP_template_SDLtemplate_OBJECTS = \
@@ -85,8 +85,8 @@ TP_template/TP_template_SDLtemplate: /usr/lib/x86_64-linux-gnu/libSDL.so
 TP_template/TP_template_SDLtemplate: /usr/lib/x86_64-linux-gnu/libGL.so.1
 TP_template/TP_template_SDLtemplate: /usr/lib/x86_64-linux-gnu/libGLEW.so
 TP_template/TP_template_SDLtemplate: TP_template/CMakeFiles/TP_template_SDLtemplate.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TP_template_SDLtemplate"
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP_template_SDLtemplate.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable TP_template_SDLtemplate"
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TP_template_SDLtemplate.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build: TP_template/TP_template_SDLtemplate
@@ -94,10 +94,10 @@ TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build: TP_template/TP_templat
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/build
 
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template" && $(CMAKE_COMMAND) -P CMakeFiles/TP_template_SDLtemplate.dir/cmake_clean.cmake
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template && $(CMAKE_COMMAND) -P CMakeFiles/TP_template_SDLtemplate.dir/cmake_clean.cmake
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/clean
 
 TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend:
-	cd "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template/TP_template" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake" --color=$(COLOR)
+	cd /home/adudree/Documents/IMAC2/SI/GLImac-Template-build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/adudree/Documents/IMAC2/SI/GLImac-Template /home/adudree/Documents/IMAC2/SI/GLImac-Template/TP_template /home/adudree/Documents/IMAC2/SI/GLImac-Template-build /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/TP_template/CMakeFiles/TP_template_SDLtemplate.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TP_template/CMakeFiles/TP_template_SDLtemplate.dir/depend
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template"
+CMAKE_SOURCE_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build"
+CMAKE_BINARY_DIR = /home/adudree/Documents/IMAC2/SI/GLImac-Template-build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles/progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/adudree/Documents/IMAC 2/SI/GLImac-Template-build/CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/adudree/Documents/IMAC2/SI/GLImac-Template-build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -215,6 +215,19 @@ TP1_SDLtemplate/fast:
 .PHONY : TP1_SDLtemplate/fast
 
 #=============================================================================
+# Target rules for targets named TP2_vertex2DUV
+
+# Build rule for target.
+TP2_vertex2DUV: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP2_vertex2DUV
+.PHONY : TP2_vertex2DUV
+
+# fast build rule for target.
+TP2_vertex2DUV/fast:
+	$(MAKE) -f TP2/CMakeFiles/TP2_vertex2DUV.dir/build.make TP2/CMakeFiles/TP2_vertex2DUV.dir/build
+.PHONY : TP2_vertex2DUV/fast
+
+#=============================================================================
 # Target rules for targets named TP2_triangle_couleurs
 
 # Build rule for target.
@@ -267,6 +280,58 @@ TP2_SDLtemplate/fast:
 .PHONY : TP2_SDLtemplate/fast
 
 #=============================================================================
+# Target rules for targets named TP_planets_planets
+
+# Build rule for target.
+TP_planets_planets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets_planets
+.PHONY : TP_planets_planets
+
+# fast build rule for target.
+TP_planets_planets/fast:
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_planets.dir/build.make TP_planets/CMakeFiles/TP_planets_planets.dir/build
+.PHONY : TP_planets_planets/fast
+
+#=============================================================================
+# Target rules for targets named TP_planets_SDLtemplate
+
+# Build rule for target.
+TP_planets_SDLtemplate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets_SDLtemplate
+.PHONY : TP_planets_SDLtemplate
+
+# fast build rule for target.
+TP_planets_SDLtemplate/fast:
+	$(MAKE) -f TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/build.make TP_planets/CMakeFiles/TP_planets_SDLtemplate.dir/build
+.PHONY : TP_planets_SDLtemplate/fast
+
+#=============================================================================
+# Target rules for targets named TP_planets2_planets
+
+# Build rule for target.
+TP_planets2_planets: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets2_planets
+.PHONY : TP_planets2_planets
+
+# fast build rule for target.
+TP_planets2_planets/fast:
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_planets.dir/build.make TP_planets2/CMakeFiles/TP_planets2_planets.dir/build
+.PHONY : TP_planets2_planets/fast
+
+#=============================================================================
+# Target rules for targets named TP_planets2_SDLtemplate
+
+# Build rule for target.
+TP_planets2_SDLtemplate: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 TP_planets2_SDLtemplate
+.PHONY : TP_planets2_SDLtemplate
+
+# fast build rule for target.
+TP_planets2_SDLtemplate/fast:
+	$(MAKE) -f TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/build.make TP_planets2/CMakeFiles/TP_planets2_SDLtemplate.dir/build
+.PHONY : TP_planets2_SDLtemplate/fast
+
+#=============================================================================
 # Target rules for targets named TP_template_SDLtemplate
 
 # Build rule for target.
@@ -295,10 +360,15 @@ help:
 	@echo "... TP1_exo2_triangle_couleurs"
 	@echo "... TP1_exo1_triangle_blanc"
 	@echo "... TP1_SDLtemplate"
+	@echo "... TP2_vertex2DUV"
 	@echo "... TP2_triangle_couleurs"
 	@echo "... TP2_triangle"
 	@echo "... TP2_mandelbrot"
 	@echo "... TP2_SDLtemplate"
+	@echo "... TP_planets_planets"
+	@echo "... TP_planets_SDLtemplate"
+	@echo "... TP_planets2_planets"
+	@echo "... TP_planets2_SDLtemplate"
 	@echo "... TP_template_SDLtemplate"
 .PHONY : help
 
